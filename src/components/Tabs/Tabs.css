@@ -1,0 +1,57 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 2px 0;
+}
+
+p {
+  margin: 0 0 4px 0;
+}
+
+.tab {
+  display: inline;
+  cursor: pointer;
+  align-items: center;
+  padding: 4px 12px 3px;
+  height: 24px;
+  margin: 2px;
+  background-color: #c9c9c9;
+  border-radius: 4px 4px 0 0;
+  color: dimgrey;
+  font-size: 0.85em;
+  transition: .2s;
+}
+.tab:hover, .tab.active {
+  background-color: white;
+}
+.tab.active {
+  margin: 0px 2px;
+}
+
+.tab-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 16px;
+  border-radius: 4px;
+  background-color: white;
+  color: dimgrey;
+}
+
+.tab-list {
+  display: block;
+  text-align: left;
+  padding: 0 4px;
+}
+
+.tab-tablist-not-found {
+  display: flex;
+  margin: 0 8px;
+  color: #fff;
+}
+
+.tabs-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: dimgray;
+  border-radius: 4px;
+  padding: 12px;
+}
